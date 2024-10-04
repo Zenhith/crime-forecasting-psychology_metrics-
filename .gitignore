@@ -1,0 +1,18 @@
+ECHO is on.
+# Ignore all CSV files except MHA.csv
+*.csv
+!data/MHA.csv
+
+# Ignore all Excel files except Crime_Data.xlsx
+*.xlsx
+!data/Crime_Data.xlsx
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore virtual environment files
+venv/
